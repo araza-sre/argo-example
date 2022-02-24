@@ -3,7 +3,7 @@ kind: Kustomization
 commonLabels:
    env: dev
 bases:
-- ../base
+- ../../base
 
 
 
