@@ -8,8 +8,8 @@ spec:
   template:
     spec:
       containers:
-      - name: demoapp01
-        image: 050400155701.dkr.ecr.us-east-1.amazonaws.com/marcin-cicd-demo:241f178
+      - name: nginx
+        image: nginx:1.14.2
         ports:
-        - containerPort: 5000
+        - containerPort: 80
 
